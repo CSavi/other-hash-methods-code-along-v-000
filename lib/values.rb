@@ -9,7 +9,7 @@ require 'pry'
  }
 
 def get_the_values(groceries)
- groceries.collect {|item| item.keys}
+ groceries.collect {|item| item.values}
 binding.pry
  # groceries.collect {|category, item| category}
 end 
