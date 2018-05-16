@@ -9,7 +9,8 @@ require 'pry'
  }
 
 def get_the_values(groceries)
- groceries.collect {|v| v.values}.uniq
+ groceries.collect {|v| v.values}
+ groceries
 
  # groceries.collect {|category, item| category}
 end 
