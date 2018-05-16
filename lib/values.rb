@@ -9,8 +9,8 @@ require 'pry'
  }
 
 def get_the_values(groceries)
- groceries.values {|category, v| v}
- groceries
+ groceries.values.flatten # {|category, v| v}
+ 
 
  # groceries.collect {|category, item| category}
 end 
